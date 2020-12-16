@@ -1,0 +1,103 @@
+/* Colori principali */
+/* Rosso: rgb(196,19,41); */
+/* bianco: white; */
+/* verde:rgb(0,108,103); */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* UTILITIES */
+.clearfix{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.float-l{
+  float: left;
+}
+
+/* /UTILITIES */
+
+header, footer{
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  padding: 15px;
+
+}
+
+header{
+  border-bottom: 2px solid black;
+}
+
+footer{
+  border-top: 2px solid black;
+}
+
+.container-sito{
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.main-container{
+  width: 100%;
+  height: calc(100vh - 200px);
+  background-color: white;
+  padding: 0px 15px;
+}
+.colonna-sx, .colonna-cen, .colonna-dx{
+  height: 100%;
+}
+
+.colonna-sx, .colonna-dx{
+  width: 40%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.colonna-cen{
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  color: red;
+}
+
+body{
+  background-color: white;
+}
+
+
+header h1{
+  text-align: center;
+  color: black;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+h2{
+  margin-bottom: 15px;
+}
+
+footer{
+  color: white;
+}
+
+
+/* COLONNA SINISTRA e DESTRA*/
+.colonna-sx .content,
+.colonna-dx .content{
+  height: 100%;
+  padding: 15px;
+}
+
+/* /COLONNA CENTRALE */
+
+#cognome-inserito{
+  margin-top:30px;
+  margin-bottom:30px;
+  font-size: 24px;
+}
